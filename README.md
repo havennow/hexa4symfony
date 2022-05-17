@@ -1,6 +1,6 @@
-#Setup
+# Setup
 
-#####Requesitos: 
+##### Requesitos: 
 - Docker
 - Docker Compose
 - Bash
@@ -8,7 +8,7 @@
 
 ---
 
-####Rodar os seguintes comandos, para iniciar o projeto:
+#### Rodar os seguintes comandos, para iniciar o projeto:
     
 1) ``make build``  - esse comando constrói os containers do Docker
 2) ``make install`` - esse comando instala dependências, executa migrate e data fixture
@@ -19,12 +19,12 @@
 
 ---
 
-###Rotas:
+### Rotas:
 
 - Login: admin@email.com 
 - Senha: admin
 
-#####RESTful
+##### RESTful
 
 1) ``http://localhost/api/v1/login`` - content type: JSON, method POST, campos: email, password - retorna JWT
 2) ``http://localhost/api/v1/users/create`` - content type: JSON, method POST, Auth Bearer JWT Token,  campos: email, password e roles
